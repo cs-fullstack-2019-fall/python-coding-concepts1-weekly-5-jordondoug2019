@@ -4,7 +4,24 @@ Write in one or more topics for each question using the following topics: Variab
 (Choose one or more: Variables, Conditionals, For Loops, While Loops, Array, Function, and Class)
 
 Error Messages:
+python3: can't open file 'week4.py': [Errno 2] No such file or directory
+student@student-ThinkPad-T440-G:~/CodeSchool/IdeaProjects/Python/0830_week4_Project$ pythin week4.py
 
+Command 'pythin' not found, did you mean:
+
+  command 'python' from deb python3
+  command 'python' from deb python
+  command 'python' from deb python-minimal
+
+Try: sudo apt install <deb name>
+
+student@student-ThinkPad-T440-G:~/CodeSchool/IdeaProjects/Python/0830_week4_Project$ python week4.py
+python3: can't open file 'week4.py': [Errno 2] No such file or directory
+
+File "week4.py", line 3
+    age= 2019- year
+      ^
+SyntaxError: invalid syntax
 
 
 #2 Topic: _____
@@ -46,7 +63,20 @@ Error Messages:
 (Choose one or more: Variables, Conditionals, For Loops, While Loops, Array, Function, and Class)
 
 Error Messages:
+<__main__.Books object at 0x7f1a6506a550>
+<__main__.Books object at 0x7f1a6506a518>
+<__main__.Books object at 0x7f1a6506a588>
 
+  File "week4.py", line 62
+    for e in booklist):
+                     ^
+SyntaxError: invalid syntax
+
+
+Traceback (most recent call last):
+  File "week4.py", line 63, in <module>
+    print(booklist[e])
+TypeError: list indices must be integers or slices, not Books
 
 
 #8 Topic: _____
@@ -67,5 +97,9 @@ Error Messages:
 (Choose one or more: Variables, Conditionals, For Loops, While Loops, Array, Function, and Class)
 
 Error Messages:
+ File "week4.py", line 92
+    pet1= Pet("Dog", "Pitbull")
+       ^
+SyntaxError: invalid syntax
 
 
